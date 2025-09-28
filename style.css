@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FCE5C0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    width: 500px;
+    border: 4px black solid;
+    background-color: grey;
+}
+
+.timer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px black solid;
+    border-top:0px;
+    width: 500px;
+    background-color: #fff;
+}
+
+.info{
+    border: 4px black solid;
+    padding:10px;
+    border-top:0px;
+}
