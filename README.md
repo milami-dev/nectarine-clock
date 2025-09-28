@@ -1,5 +1,5 @@
 # 🍊 nectarine-clock 
-*Nectarines are more gentle and fresh than tomatos.*
+*Nectarines are more gentle and fresh than tomatoes.*
 
 This timer based on the pomodoro method will not only help you stay on top of your work but will also encourage you to take good care of your health in the meantime!
 
