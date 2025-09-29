@@ -11,6 +11,7 @@ html {
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -28,23 +29,55 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 20vh;
-    width: 500px;
-    border: 4px black solid;
-    background-color: grey;
 }
 
 .timer-top{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 4px black solid;
-    border-top:0px;
+    gap: 5px;
+    border: 5px black solid;
+    border-radius: 40px;
     width: 500px;
+    height: 200px;
     background-color: #fff;
 }
 
 .info{
     border: 4px black solid;
+    /* border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
     padding:10px;
     border-top:0px;
+}
+
+.counter{
+    font-size: 100px;
+}
+
+.timer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #2A2A2A;
+    margin: -50px;
+    z-index: -1;
+    border: 5px black solid;
+    width: 500px;
+    height: 170px;
+}
+
+button{
+    padding:10px 20px;
+    border: black 4px solid;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.buttons{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
