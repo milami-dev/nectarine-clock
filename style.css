@@ -26,6 +26,11 @@ body{
     height: 100vh;
 }
 
+.nectarine{
+    position: relative;
+    right: 150px
+}
+
 .timer{
     display: flex;
     flex-direction: column;
