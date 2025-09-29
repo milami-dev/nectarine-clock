@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,21 @@
 
 <body>
     <div class="content">
-     <div class="timer">
-        <div class="timer-top">
-            <p class="info">work time/break time</p>
-            <!-- current time -->
-            <p class="counter">00:00</p>
+        <div class="timer">
+            <div class="timer-top">
+                <p class="info">work time</p>
+                <!-- current time -->
+                <p class="counter">00:00</p>
+            </div>
+            <!-- 25min work + 5 min break, after 4th 25min break = 30min -->
+            <div class="timer-bottom">
+                <div class="buttons">
+                    <button>start</button>
+                    <button>pause</button>
+                </div>
+            </div>
         </div>
-        <!-- 25min work + 5 min break, after 4th 25min break = 30min -->
-        <div class="buttons">
-            <button>start</button>
-            <button>pause</button>
-        </div>
-     </div>
-     </div>
+    </div>
 
     <!-- if break -->
     <!-- header like "It's break time, would you like to exercise?" -->
@@ -32,6 +35,7 @@
         <div class="card">card</div>
         <div class="card">card</div>
     </div> -->
-    
+
 </body>
+
 </html>

@@ -22,20 +22,22 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .timer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20vh;
+    height: 320px;
 }
 
 .timer-top{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     border: 5px black solid;
     border-radius: 40px;
     width: 500px;
@@ -44,10 +46,11 @@ body{
 }
 
 .info{
-    border: 4px black solid;
+    font-size: 16px;
+    border: 4px #2A2A2A solid;
     /* border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px; */
-    padding:10px;
+    padding: 5px 30px;
     border-top:0px;
 }
 
@@ -68,10 +71,10 @@ body{
 }
 
 button{
-    padding:10px 20px;
+    padding: 5px 20px;
     border: black 4px solid;
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .buttons{
