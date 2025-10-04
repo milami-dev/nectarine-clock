@@ -28,7 +28,8 @@ body{
 
 .nectarine{
     position: relative;
-    right: 150px
+    right: 150px;
+    top: 5px;
 }
 
 .timer{
