@@ -15,7 +15,8 @@ html {
 }
 
 body{
-    background-color: #FCE5C0;
+    /* background-color: #FCE5C0; */
+    background-color: #DCE2AC;
 }
 
 .content{
@@ -89,4 +90,20 @@ button{
     justify-content: center;
     align-items: center;
     gap: 80px;
+}
+
+.break-buttons{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.water-style{
+    background-color: #C3F4FF;
+}
+
+.excercise-style{
+    background-color: #FDEE94;
 }
